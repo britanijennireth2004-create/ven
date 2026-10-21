@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280">
+    <title>SIT-CUPAZ | Sistema de Inteligencia Territorial</title>
+    
+    <!-- Evitar error 404 de Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><path fill='%231e293b' d='M256 0c-11.3 0-22.2 5.1-29.5 13.9C199 46.2 144.5 87 79 113.6 57.5 122.4 43 143.5 43 167c0 47.9 23.9 167.3 189.7 334.8 6.4 6.5 15.2 10.2 24.3 10.2s17.9-3.7 24.3-10.2C446.1 334.3 470 214.9 470 167c0-23.5-14.5-44.6-36-53.4-65.5-26.6-120-67.4-147.5-99.7C279.2 5.1 268.3 0 256 0z'/></svg>">
+    
+    <!-- Estilos Maestros (Arquitectura pb_public) -->
+    <link rel="stylesheet" href="./Assets/css/main.css?v=2">
+    
+    <!-- Fluent UI Web Components -->
+    <script type="module" src="https://unpkg.com/@fluentui/web-components"></script>
+    
+    <!-- Bibliotecas Externas -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.28/jspdf.plugin.autotable.min.js"></script>
+    
+    <!-- Iconografía y Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="app"></div>
+    <div id="toastContainer" class="toast-container"></div>
+    <script src="main.js" type="module"></script>
+</body>
+</html>
